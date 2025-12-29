@@ -4,7 +4,7 @@ import json
 import asyncio
 
 # Ustawienia i Zmienne
-TOKEN = 'MTQ1NTI0Njk0NDA5NTA0NzcxMQ.Gra-AP.p41ksg2oSjg-opT7nKrRkwDv95RWQH09iIIhz4'
+TOKEN = 'TOKEN'
 WEBHOOK_URLS = {} # Słownik przechowujący URL-e webhooków powiązane z ID serwera/kanału
 VERIFICATION_STATE = {} # Przechowuje stan weryfikacji dla każdego użytkownika
 
@@ -280,4 +280,5 @@ async def edit_last_embed(interaction: discord.Interaction, title: str, descript
 
 
 if __name__ == '__main__':
+
     client.run(TOKEN)
